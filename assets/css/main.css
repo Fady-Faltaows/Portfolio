@@ -895,17 +895,12 @@ section,
 .testimonials .swiper-wrapper {
   display: flex;
   height: auto;
-  transition: transform 0.3s ease-in-out;
 }
 
-.testimonials .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; /* Ensures each slide takes full width */
-  height: auto; /* Adjust height if necessary */
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%; /* Adjust as needed */
 }
-
 
 .testimonials .swiper-pagination {
   margin-top: 20px;
@@ -1470,6 +1465,13 @@ section,
   color: var(--accent-color);
 }
 
+.certification-icon {
+  width: 50px; /* Set the desired width */
+  height: 50px; /* Set the desired height */
+  object-fit: contain; /* Ensure the image maintains its aspect ratio */
+  margin-right: 15px; /* Add some spacing between the image and text */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
