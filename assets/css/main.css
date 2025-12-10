@@ -179,6 +179,33 @@ h6 {
   --background-color: rgba(82, 78, 68, 0.8);
 }
 
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid var(--accent-color);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-content {
+  background-color: var(--surface-color);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.timeline-date {
+  display: block;
+  font-weight: bold;
+  color: var(--heading-color);
+  margin-bottom: 0.5rem;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
